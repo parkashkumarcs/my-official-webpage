@@ -1,64 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
     --black-color: #000000;
     --bg-green-color: #b3da09;
-    --primary-text-color:rgb(153, 153, 153);
+    --primary-text-color: rgb(153, 153, 153);
 }
-*{
+
+* {
     font-family: "Poppins", sans-serif;
 }
-body{
+
+body {
     background-color: var(--black-color);
-    
+
 }
+
 /* h1{
     color: var(--secondary-color);
 } */
-.object-fit-contain{
+.object-fit-contain {
     width: 100%;
     margin-top: 0px;
 
 }
-.txt-green{
+
+.txt-green {
     color: var(--bg-green-color);
 }
 
-.bg{
+.bg {
     background-color: transparent;
 }
-.navbar-toggler-icon{
+
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     width: 50px;
 }
-.text-color{
+
+.text-color {
     color: var(--primary-text-color);
 }
-.btn-bg-color{
+
+.btn-bg-color {
     background-color: var(--bg-green-color);
     border-radius: 5px;
 }
-.btn-bg-color:hover{
+
+.btn-bg-color:hover {
     border: .1rem solid var(--bg-green-color);
     background-color: transparent;
     color: white;
 }
-.font-size{
+
+.font-size {
     font-size: 25px;
 }
-.black-color{
+
+.black-color {
     color: var(--black-color);
 }
-.navbar-logo{
+
+.navbar-logo {
     width: 60px;
     height: 60px;
 }
-.nav-item:hover{
+
+.nav-item:hover {
     /* border: .1rem solid var(--bg-green-color); */
     background-color: var(--bg-green-color);
     border-radius: 5px;
 }
-.hero-section{
+
+.hero-section {
+    height: 85vh;
     background: url('../Images/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.image-container {
+    background-color: gold;
+    width: 32rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.h1 {
+    font-size: 4rem;
+    color: aliceblue;
+    font-family: "Merriweather Sans", sans-serif;
 }
