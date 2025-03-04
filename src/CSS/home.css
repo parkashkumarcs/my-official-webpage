@@ -1,16 +1,33 @@
 :root{
-    --primary-color: #111a1f;
-    --secondary-color: #005C53;
+    --primary-color: #000000;
+    --bg-color: #b3da09;
+    --primary-text-color:gray;
 }
-html{
+body{
     background-color: var(--primary-color);
+    
 }
 /* h1{
     color: var(--secondary-color);
 } */
-
-.background-image-container{
+.object-fit-contain{
     width: 100%;
-    height: 60%;
-    background: url('');
+}
+.bg{
+    background-color: black;
+}
+.navbar-toggler-icon{
+
+}
+.text-color{
+    color: var(--primary-text-color);
+}
+.bg-color{
+    background-color: black;
+}
+.bg-color:hover{
+    background-color: var(--bg-color);
+}
+.font-size{
+    font-size: 25px;
 }
