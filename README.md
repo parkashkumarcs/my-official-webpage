@@ -4,13 +4,12 @@
 As a computer science graduate with a passion for web development and design, I have over 2 years of experience as a MERN Stack Developer.
 
 
-## 🚀 Tech Stack
+## 🚀 Technologies Used
 
-- **Frontend:** React.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication:** JWT / OAuth  
-- **Deployment:** Vercel / Netlify / AWS  
+- **HTML5** – Structured content  
+- **CSS3** – Styling and layout  
+- **JavaScript** – Dynamic interactions  
+- **Bootstrap** – Responsive and modern UI 
 
 ## ✨ Features
 
