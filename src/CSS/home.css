@@ -1,10 +1,16 @@
 :root{
-    --primary-color: #042940;
+    --primary-color: #111a1f;
     --secondary-color: #005C53;
 }
 html{
     background-color: var(--primary-color);
 }
-h1{
+/* h1{
     color: var(--secondary-color);
+} */
+
+.background-image-container{
+    width: 100%;
+    height: 60%;
+    background: url('');
 }
