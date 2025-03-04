@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
-    --primary-color: #000000;
-    --bg-color: #b3da09;
-    --primary-text-color:gray;
+    --black-color: #000000;
+    --bg-green-color: #b3da09;
+    --primary-text-color:rgb(153, 153, 153);
+}
+*{
+    font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: var(--primary-color);
+    background-color: var(--black-color);
     
 }
 /* h1{
@@ -12,9 +16,10 @@ body{
 } */
 .object-fit-contain{
     width: 100%;
+    margin-top: 0px;
 }
 .bg{
-    background-color: black;
+    background-color: transparent;
 }
 .navbar-toggler-icon{
 
@@ -22,12 +27,28 @@ body{
 .text-color{
     color: var(--primary-text-color);
 }
-.bg-color{
-    background-color: black;
+.btn-bg-color{
+    background-color: var(--bg-green-color);
+    border-radius: 5px;
 }
-.bg-color:hover{
-    background-color: var(--bg-color);
+.btn-bg-color:hover{
+    border: .1rem solid var(--bg-green-color);
+    background-color: transparent;
+    color: white;
 }
 .font-size{
     font-size: 25px;
+}
+.black-color{
+    color: var(--black-color);
+}
+.navbar-logo{
+    width: 60px;
+    height: 60px;
+}
+.nav-item:hover{
+    /* border: .1rem solid var(--bg-green-color); */
+    background-color: var(--bg-green-color);
+    color: white;
+    border-radius: 5px;
 }
