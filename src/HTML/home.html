@@ -1,64 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/home.css" />
     <title>My Portfolio Website</title>
     <!-- Folling are external css files -->
-     <!-- <style>
+    <!-- <style>
         @import url('../CSS/home.css');
      </style> -->
-</head>
-<body>
+  </head>
+  <body>
     <!-- 
         Let's add bootstrap bg color to check bootstrap is connected or still need to connect.  
 
         Yes it works properly:)
     -->
     <!-- <h1 class="bg-danger text-light">Hi there, This is Parkash Kumar</h1>  -->
-    
+
     <!-- Now let's add the navbar code here -->
     <nav class="navbar navbar-expand-lg bg py-3">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="../Images/logo.gif" alt="logo" class="navbar-logo">
-          </a>
-          <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-            <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-5">
-              <li class="nav-item">
-                <a class="nav-link active text-light font-size" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light font-size" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light font-size" aria-current="page" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light font-size" aria-current="page" href="#">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light font-size" aria-current="page" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-light font-size" aria-current="page" href="#">Contact</a>
-              </li>
-            </ul>
-            <a href="#" class="btn btn-bg-color .black-color{ font-size" tabindex="-1" role="button" aria-disabled="true">LET'S TALK</a>
-          </div>
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="../Images/logo.gif" alt="logo" class="navbar-logo" />
+        </a>
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-5">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font-size"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font-size"
+                aria-current="page"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font-size"
+                aria-current="page"
+                href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font-size"
+                aria-current="page"
+                href="#"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font-size"
+                aria-current="page"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light font-size"
+                aria-current="page"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="btn btn-bg-color .black-color{ font-size"
+            tabindex="-1"
+            role="button"
+            aria-disabled="true"
+            >LET'S TALK</a
+          >
         </div>
-      </nav>
-
+      </div>
+    </nav>
 
     <!-- Following code for background image conainter at top and below the navbar -->
-    <video  src="../Images/bg.mp4" class="object-fit-contain" autoplay muted></video>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="grid-col-6">
+            <span class="text-light">Hi there, I am</span>
+            <h1>
+              MERN Stack Developer & <span class="txt-green">Developer</span>
+            </h1>
+            <p class="txt-gray">
+              Hello, I am Parkash Kumar, a pationate web developer and desginer
+              over 2 years.
+            </p>
+            <a
+              href="#"
+              class="btn btn-bg-color .black-color{ font-size"
+              tabindex="-1"
+              role="button"
+              aria-disabled="true"
+              >View Portfolio</a
+            >
+          </div>
+          <div class="grid-col-6"></div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
     <script src="../JavaScript/finiteAutoplayVid.js"></script>
-</body>
+  </body>
 </html>

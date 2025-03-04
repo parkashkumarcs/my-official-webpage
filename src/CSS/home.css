@@ -17,7 +17,12 @@ body{
 .object-fit-contain{
     width: 100%;
     margin-top: 0px;
+
 }
+.txt-green{
+    color: var(--bg-green-color);
+}
+
 .bg{
     background-color: transparent;
 }
@@ -51,4 +56,9 @@ body{
     /* border: .1rem solid var(--bg-green-color); */
     background-color: var(--bg-green-color);
     border-radius: 5px;
+}
+.hero-section{
+    background: url('../Images/bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
