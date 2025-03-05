@@ -85,6 +85,10 @@ body {
     /* box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.678); */
     overflow: hidden;
 }
+.about-section {
+    min-height: 120vh;
+    /* box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.678); */
+}
 
 .image-container {
     /* background-color: gold; */
@@ -165,12 +169,24 @@ img{
     font-size: 20px;
     color: var(--bg-green-color);
 }
+.text-deco{
+    text-decoration: none;
+}
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+    line-height: 1.6;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    hyphens: none;
+}
 
 
 
 
 
-/* Media queries section */
+/* Media queries section to make responsive */
 @media screen and (max-width: 680px) {
     .h1{
         font-size: 2.8rem;
@@ -181,5 +197,10 @@ img{
     .hero-section{
         min-height: 100vh;
         margin-top: 0px;
+    }
+    .text-justify{
+        text-align: left; 
+        hyphens: none;
     }  
+
 }
