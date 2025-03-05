@@ -153,6 +153,18 @@ img{
     border: 4px solid rgb(255, 255, 255);
     transition: 0.5s;
 }
+.dropcap::first-letter {
+    font-size: 3em;
+    color: var(--bg-green-color);
+    font-weight: bold;
+    float: left;
+    line-height: 1; 
+    margin-right: 8px;
+}
+.pk-style{
+    font-size: 20px;
+    color: var(--bg-green-color);
+}
 
 
 
