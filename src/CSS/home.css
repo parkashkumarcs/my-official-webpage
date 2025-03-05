@@ -6,18 +6,11 @@
     --bg-green-color: #b3da09;
     --primary-text-color: rgb(153, 153, 153);
 }
-html{
-    box-sizing: border-box;
-}
-
 * {
     font-family: "Poppins", sans-serif;
     /* border: .1rem solid gainsboro; */
-    box-sizing: inherit;
 }
-*:before, *:after{
-    box-sizing: inherit;
-}
+
 body {
     background-color: var(--black-color);
 
@@ -80,7 +73,7 @@ body {
 }
 
 .hero-section {
-    height: 85vh;
+    min-height: 85vh;
     background: url('../Images/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,13 +84,20 @@ body {
     width: 32rem;
     aspect-ratio: 1;
     border-radius: 50%;
-    border-top: 1rem solid var(--bg-green-color);
-    border-bottom: 1rem solid var(--bg-green-color);
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
     background-image: url('../Images/pk.png');
     background-position: center;
     background-size: 100%;
     background-position-y: top;
-}
+    box-shadow: 
+    0 0 1rem white,
+    inset 0 0 1rem white,
+    0 0 2rem var(--bg-green-color),
+    inset 0 0  2rem var(--bg-green-color),
+    0 0 7rem var(--bg-green-color),
+    inset 0 0 4rem var(--bg-green-color);
+} 
 
 .h1 {
     font-size: 4rem;
@@ -106,4 +106,20 @@ body {
 }
 .paragrap{
     max-width: 500px;
+}
+
+
+
+
+
+
+
+/* Media queries section */
+@media screen and (max-width: 680px) {
+    .h1{
+        font-size: 2.8rem;
+    }  
+    .image-container{
+        width: 20rem;
+    }  
 }
