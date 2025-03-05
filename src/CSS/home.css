@@ -77,10 +77,13 @@ body {
 }
 
 .hero-section {
-    min-height: 88vh;
+    min-height: 120vh;
+    margin-top: -100px;
     background: url('../Images/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
+    /* box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.678); */
+    overflow: hidden;
 }
 
 .image-container {
@@ -99,10 +102,21 @@ body {
     inset 0 0 1rem white,
     0 0 2rem var(--bg-green-color),
     inset 0 0  2rem var(--bg-green-color),
-    0 0 5rem var(--bg-green-color),
+    0 0 6rem var(--bg-green-color),
     inset 0 0 4rem var(--bg-green-color);
+    transition: 1s;
 } 
-
+.image-container:hover{
+    transition: 1s;
+    box-shadow: 
+    0 0 1.5rem white,
+    inset 0 0 1.5rem white,
+    0 0 2.5rem var(--bg-green-color),
+    inset 0 0  2.5rem var(--bg-green-color),
+    0 0 5.5rem var(--bg-green-color),
+    inset 0 0 4.5rem var(--bg-green-color);
+    scale: 1.05;
+}
 .h1 {
     font-size: 4rem;
     color: aliceblue;
@@ -113,9 +127,32 @@ body {
 }
 .text-clr{
     color: rgb(168, 168, 168);
+}    
+hr{
+    margin-top: 0px;
+    border: none;
+    height: 6px;
+    background: linear-gradient(to right, #222, #555, #222);
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
 }
-
-
+img{
+    width: 100%;
+    height: auto;
+}
+.about-me{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px;
+    border-radius: 50%;
+    box-shadow: 0 0 2rem var(--bg-green-color),
+    inset 0 0  8rem var(--bg-green-color) ;
+    transition: 1s;
+}
+.about-me:hover{
+    scale: 1.05;
+    border: 4px solid rgb(255, 255, 255);
+    transition: 0.5s;
+}
 
 
 
@@ -130,6 +167,7 @@ body {
         width: 18rem;
     }
     .hero-section{
-        min-height: 72vh;
+        min-height: 100vh;
+        margin-top: 0px;
     }  
 }
