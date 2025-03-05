@@ -6,11 +6,18 @@
     --bg-green-color: #b3da09;
     --primary-text-color: rgb(153, 153, 153);
 }
+html{
+    box-sizing: border-box;
+}
 
 * {
     font-family: "Poppins", sans-serif;
+    /* border: .1rem solid gainsboro; */
+    box-sizing: inherit;
 }
-
+*:before, *:after{
+    box-sizing: inherit;
+}
 body {
     background-color: var(--black-color);
 
@@ -80,14 +87,23 @@ body {
 }
 
 .image-container {
-    background-color: gold;
+    /* background-color: gold; */
     width: 32rem;
     aspect-ratio: 1;
     border-radius: 50%;
+    border-top: 1rem solid var(--bg-green-color);
+    border-bottom: 1rem solid var(--bg-green-color);
+    background-image: url('../Images/pk.png');
+    background-position: center;
+    background-size: 100%;
+    background-position-y: top;
 }
 
 .h1 {
     font-size: 4rem;
     color: aliceblue;
     font-family: "Merriweather Sans", sans-serif;
+}
+.paragrap{
+    max-width: 500px;
 }
