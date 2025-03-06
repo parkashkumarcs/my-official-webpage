@@ -5,7 +5,7 @@
     --black-color: #000000;
     --bg-green-color: #FA0567;
     --heading-txt-color: #FFFFFF;
-    --para-txt-color: #8C8C8C;
+    --para-txt-color: #AAAAAA;
     --card-bg-color:#181E26;
     --btn-color: #090909;
 }
@@ -139,6 +139,7 @@ body {
     max-width: 500px;
     background-color: #080808be;
     padding: 5px;
+    color: var(--para-txt-color);
     border-radius: 5px;
 }
 .para-txt-color{
@@ -178,21 +179,9 @@ img{
     line-height: 1; 
     margin-right: 8px;
 }
-.pk-style{
-    font-size: 20px;
-    color: var(--bg-green-color);
-}
 .text-deco{
     text-decoration: none;
 }
-.text-justify{
-    font-size: 16px;
-    color: #444;
-    line-height: 1.6;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-}
-
 
 
 
