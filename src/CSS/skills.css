@@ -1,0 +1,69 @@
+
+.skills-container {
+    padding: 50px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fa0567;
+}
+
+.sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+    color: white;
+}
+
+.skill i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.skill:hover {
+    background-color: #fa0567;
+    transform: scale(1.1);
+}
+
+.cert-link a {
+    color: #fa0567;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cert-link a:hover {
+    text-decoration: underline;
+}
