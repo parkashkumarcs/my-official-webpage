@@ -4,7 +4,10 @@
 :root {
     --black-color: #000000;
     --bg-green-color: #FA0567;
-    --primary-text-color: rgb(153, 153, 153);
+    --heading-txt-color: #FFFFFF;
+    --para-txt-color: #8C8C8C;
+    --card-bg-color:#181E26;
+    --btn-color: #090909;
 }
 * {
     font-family: "Poppins", sans-serif;
@@ -24,7 +27,9 @@ body {
     margin-top: 0px;
 
 }
-
+.card-bg-color{
+    background-color: var(--card-bg-color);
+}
 .txt-green {
     color: var(--bg-green-color);
 }
@@ -38,21 +43,25 @@ body {
     width: 50px;
 }
 
-.text-color {
-    color: var(--primary-text-color);
+.heading-txt-color {
+    color: var(--heading-txt-color);
 }
 
 .btn-bg-color {
     background-color: var(--bg-green-color);
     border-radius: 5px;
 }
-
+.btn-txt-clr{
+    color: var(--btn-color);
+}
 .btn-bg-color:hover {
     border: .1rem solid var(--bg-green-color);
     background-color: transparent;
     color: white;
 }
-
+.bg-tr-clr{
+    background-color: #424242e1;
+}
 .font-size {
     font-size: 15px;
 }
@@ -128,9 +137,12 @@ body {
 }
 .paragrap{
     max-width: 500px;
+    background-color: #080808be;
+    padding: 5px;
+    border-radius: 5px;
 }
-.text-clr{
-    color: rgb(168, 168, 168);
+.para-txt-color{
+    color: var(--para-txt-color);
 }    
 hr{
     margin-top: 0px;
