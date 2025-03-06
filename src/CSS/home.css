@@ -201,6 +201,15 @@ img {
         rgba(250, 5, 103, 0.2) 0px 30px,  
         rgba(250, 5, 103, 0.1) 0px 35px;
 }
+
+/* Portfolio Styles */
+
+
+.portfolio-section{
+    height: fit-content;
+}
+
+
 /* Media queries section to make responsive */
 @media screen and (max-width: 680px) {
   .h1 {
@@ -220,5 +229,8 @@ img {
   }
   .about-section{
     min-height: 160vh;
+  }
+  .portfolio-section{
+    height: fit-content;
   }
 }
