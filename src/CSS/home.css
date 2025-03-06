@@ -186,13 +186,11 @@ img{
     text-decoration: none;
 }
 .text-justify{
-    text-align: justify;
-    text-justify: inter-word;
-    hyphens: auto;
+    font-size: 16px;
+    color: #444;
     line-height: 1.6;
-    word-spacing: 1px;
+    font-weight: 400;
     letter-spacing: 0.5px;
-    hyphens: none;
 }
 
 
