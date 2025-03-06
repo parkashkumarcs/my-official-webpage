@@ -1,0 +1,25 @@
+/* style for serivce cards */
+.card-bg-color {
+  background-color: var(--card-bg-color);
+}
+.card-txt-size {
+  font-size: 12px;
+}
+.glow-card {
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(250, 5, 103, 0.4) 0px 5px, rgba(250, 5, 103, 0.3) 0px 10px,
+    rgba(250, 5, 103, 0.2) 0px 15px, rgba(250, 5, 103, 0.1) 0px 20px,
+    rgba(250, 5, 103, 0.05) 0px 25px;
+
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+.glow-card:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(250, 5, 103, 0.7) 0px 5px, rgba(250, 5, 103, 0.6) 0px 10px,
+    rgba(250, 5, 103, 0.5) 0px 15px, rgba(250, 5, 103, 0.4) 0px 20px,
+    rgba(250, 5, 103, 0.3) 0px 25px, rgba(250, 5, 103, 0.2) 0px 30px,
+    rgba(250, 5, 103, 0.1) 0px 35px;
+}

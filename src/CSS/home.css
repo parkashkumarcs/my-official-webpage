@@ -89,11 +89,6 @@ body {
   /* box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.678); */
   overflow: hidden;
 }
-.about-section {
-  min-height: 110vh;
-  /* box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.678); */
-}
-
 .image-container {
   /* background-color: gold; */
   width: 30rem;
@@ -144,20 +139,7 @@ img {
   width: 100%;
   height: auto;
 }
-.about-me {
-  border: 1px solid rgb(255, 255, 255);
-  padding: 2px;
-  border-radius: 50%;
-  box-shadow: 0 0 2rem var(--bg-green-color),
-    inset 0 0 8rem var(--bg-green-color);
-  transition: 1s;
-}
-.about-me:hover {
-  scale: 1.03;
-  border: 4px solid rgb(255, 255, 255);
-  transition: 0.5s;
-  padding: 2rem;
-}
+
 .dropcap::first-letter {
   font-size: 3em;
   color: var(--bg-green-color);
@@ -169,46 +151,12 @@ img {
 .text-deco {
   text-decoration: none;
 }
-/* style for serivce cards */
-.card-bg-color {
-  background-color: var(--card-bg-color);
-}
-.card-txt-size{
-    font-size: 12px;
-}
-.glow-card {
-  border-radius: 15px;
-  padding: 20px;
-  text-align: center;
-  box-shadow:  
-    rgba(250, 5, 103, 0.4) 0px 5px,  
-    rgba(250, 5, 103, 0.3) 0px 10px,  
-    rgba(250, 5, 103, 0.2) 0px 15px,  
-    rgba(250, 5, 103, 0.1) 0px 20px,  
-    rgba(250, 5, 103, 0.05) 0px 25px;
-
-  transition: 0.3s ease-in-out;
-  overflow: hidden;
-}
-.glow-card:hover {
-    transform: scale(1.05);
-    box-shadow:  
-        rgba(250, 5, 103, 0.7) 0px 5px,  
-        rgba(250, 5, 103, 0.6) 0px 10px,  
-        rgba(250, 5, 103, 0.5) 0px 15px,  
-        rgba(250, 5, 103, 0.4) 0px 20px,  
-        rgba(250, 5, 103, 0.3) 0px 25px,  
-        rgba(250, 5, 103, 0.2) 0px 30px,  
-        rgba(250, 5, 103, 0.1) 0px 35px;
-}
 
 /* Portfolio Styles */
 
-
-.portfolio-section{
-    height: fit-content;
+.portfolio-section {
+  height: fit-content;
 }
-
 
 /* Media queries section to make responsive */
 @media screen and (max-width: 680px) {
@@ -227,10 +175,10 @@ img {
     text-align: left;
     hyphens: none;
   }
-  .about-section{
+  .about-section {
     min-height: 160vh;
   }
-  .portfolio-section{
+  .portfolio-section {
     height: fit-content;
   }
 }
