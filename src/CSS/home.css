@@ -173,6 +173,9 @@ img {
 .card-bg-color {
   background-color: var(--card-bg-color);
 }
+.card-txt-size{
+    font-size: 12px;
+}
 .glow-card {
   border-radius: 15px;
   padding: 20px;
@@ -198,7 +201,6 @@ img {
         rgba(250, 5, 103, 0.2) 0px 30px,  
         rgba(250, 5, 103, 0.1) 0px 35px;
 }
-
 /* Media queries section to make responsive */
 @media screen and (max-width: 680px) {
   .h1 {
@@ -215,5 +217,8 @@ img {
   .text-justify {
     text-align: left;
     hyphens: none;
+  }
+  .about-section{
+    min-height: 160vh;
   }
 }
