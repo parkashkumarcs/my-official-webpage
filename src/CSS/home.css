@@ -44,7 +44,7 @@ body {
 
 .btn-bg-color {
   background-color: var(--bg-green-color);
-  border-radius: 5px;
+  border-radius: 2px;
 }
 .btn-txt-clr {
   color: var(--btn-color);

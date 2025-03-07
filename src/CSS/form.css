@@ -1,0 +1,53 @@
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #181e26;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 0, 102, 0.5);
+    text-align: center;
+}
+
+.contact-container h2 {
+    color: #fa0567;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: black;
+    color: white;
+    border: 1px solid #fa0567;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-custom {
+    background-color: #fa0567;
+    border: 1px solid #fa0567;
+    width: 100px;
+    color: black;
+    /* border: none; */
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid #fa0567;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-icons i:hover {
+    color: #fa0567;
+}

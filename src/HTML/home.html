@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../CSS/about.css" />
     <link rel="stylesheet" href="../CSS/service.css" />
     <link rel="stylesheet" href="../CSS/footer.css" />
-    <link rel="stylesheet" href="../CSS/form.css">
+    <link rel="stylesheet" href="../CSS/form.css" />
 
     <title>My Portfolio Website</title>
     <!-- Folling are external css files -->
@@ -724,17 +724,52 @@
         </div>
       </section>
 
-      <hr/>
+      <hr />
 
       <!-- Now it's time develop the contact form so anybody can reach out to me;) -->
       <section>
         <div class="container">
+          <div class="contact-container">
+            <h2>Get in Touch</h2>
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control"
+                  rows="4"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-custom w-100">
+                Send Message
+              </button>
+            </form>
 
+            <div class="social-icons mt-4">
+              <a href="https://www.linkedin.com/in/parkashkumar/"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/parkashkumarcs"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
         </div>
       </section>
-
     </main>
-    <br/>
+    <br />
 
     <!-- Now let's build the footer -->
     <hr />
