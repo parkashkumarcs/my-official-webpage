@@ -1,10 +1,72 @@
-.profile{
-    background-color: white;
-    width: 3rem;
-    aspect-ratio: 1;
+.profile {
+  width: 3rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.profile-image {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.swiper {
+  width: 100%;
+  min-height: 350px;
+}
+
+.swiper-slide {
+    border-radius: 5px;
+  font-size: 12px;
+  align-items: center;
+  justify-content: left;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: #aaaaaa77;
+}
+.control{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: black;
+}
+.left{
+    background-color: #181e26;;
+    width: 2rem;
+    height:2rem;
+    color: #aaaaaa;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+.right{
+    background-color: #181e26;;
+    color: #aaaaaa;
+    width: 2rem;
+    height:2rem;
     border-radius: 50%;
 }
-.profile-image{
-    width: 3rem;
-    border-radius: 50%;
+.left:hover{
+    background-color:#fa0567;;
+    color: black;
 }
+.right:hover{
+    background-color:#fa0567;;
+    color: black;
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #fa0567;
+}
+.star-rating {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 18px;
+    color: gold;
+  }
