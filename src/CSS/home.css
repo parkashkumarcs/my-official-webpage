@@ -128,7 +128,8 @@ body {
   color: var(--para-txt-color);
 }
 hr {
-  margin-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: none;
   height: 6px;
   background: linear-gradient(to right, #222, #555, #222);
