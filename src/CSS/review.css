@@ -1,0 +1,10 @@
+.profile{
+    background-color: white;
+    width: 3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.profile-image{
+    width: 3rem;
+    border-radius: 50%;
+}
