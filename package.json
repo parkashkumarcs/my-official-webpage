@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "emailjs-com": "^3.2.0"
-  }
-}
