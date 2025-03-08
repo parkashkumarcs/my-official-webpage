@@ -1,14 +1,15 @@
-// import emailjs from 'emailjs-com';
-
 const sendEmail = (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  emailjs.sendForm('service_6aq6zyd', 'template_t0k8mqr', e.target, '0VWOF1eua2vlU14fs')
-    .then((result) => {
-        console.log('Success:', result.text);
-    }, (error) => {
-        console.log('Error:', error.text);
-    });
+    emailjs.sendForm(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        e.target,
+        EMAILJS_CONFIG.USER_ID
+    ).then(
+        (result) => console.log('Success:', result.text),
+        (error) => console.log('Error:', error.text)
+    );
 
-  e.target.reset();
+    e.target.reset();
 };
