@@ -1,4 +1,4 @@
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 const sendEmail = (e) => {
   e.preventDefault();
