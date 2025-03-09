@@ -30,7 +30,7 @@
     width: 120px;
     height: 120px;
     background-color: rgba(255, 255, 255, 0.1);
-    /* border-radius: 50%; */
+    border-radius: .1rem; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,9 +64,6 @@
     font-weight: bold;
 }
 
-.cert-link a:hover {
-    text-decoration: underline;
-}
 .certificate{
     border-radius: 5px;
     padding: 1rem;
@@ -77,11 +74,31 @@
     display: inline-block;
     padding: 5px;
     min-width: 400px;
+    border: .1rem solid #fa0567;
     /* min-width: 400px; */
     
 }
-@media screen and (max-width: 600px){
+
+.extra-style:hover{
+    background-color: black;
+    border: .1rem solid #fa0567;
+}
+
+@media screen and (min-width: 600px){
     .extra-style{
-        min-width: 300px;
+        min-width: 500px;
+    }
+}
+@media screen and (max-width: 500px){
+    .extra-style{
+        min-width: 280px;
+    }
+}
+@media screen and (max-width: 400px){
+    .extra-style{
+        min-width: 240px;
+    }
+    .cert-link a{
+        font-size: 15px;
     }
 }
